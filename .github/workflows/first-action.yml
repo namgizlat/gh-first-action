@@ -1,0 +1,11 @@
+name: my first wf
+on: workflow_dispatch
+jobs: 
+  first-job:
+    runs-on: ubunte-latest
+    steps:
+      - name: Print Greetings
+        run: echo "Hello workd"
+      - name: Print goodbye
+        run: echo "goodbye"
+
