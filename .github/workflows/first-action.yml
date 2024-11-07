@@ -2,7 +2,7 @@ name: my first wf
 on: workflow_dispatch
 jobs: 
   first-job:
-    runs-on: ubunte-latest
+    runs-on: ubunto-latest
     steps:
       - name: Print Greetings
         run: echo "Hello workd"
